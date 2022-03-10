@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+ 
+    <base target="_top">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+     
+     <?!=include("page-css")  ?>
+    
+    
+    
+  </head>
+  <body>
+  
+  
+  <div class="container">
+  
+  
+  <div class="row">
+        <div class="input-field col s4">
+          <input  id="sl" type="text" class="validate">
+          <label for="sl">Sl.no</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="dt" type="text" class="validate">
+          <label for="dt">Date</label>
+        </div>
+    </div>
+      
+      
+      
+  <div class="row">
+        <div class="input-field col s4">
+          <input  id="in" type="text" class="validate">
+          <label for="in">Invoice No</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="vn" type="text" class="validate">
+          <label for="vn">Vendor</label>
+        </div>
+      </div>
+      
+  <div class="row">
+        <div class="input-field col s4">
+          <input  id="gst" type="text" class="validate">
+          <label for="gst">GST No.</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="qnt" type="text" class="validate">
+          <label for="qnt">Quantity</label>
+        </div>
+      </div>
+      
+      
+  <div class="row">
+        <div class="input-field col s4">
+          <input  id="loi" type="text" class="validate">
+          <label for="loi">List Of Items</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="hsn" type="text" class="validate">
+          <label for="hsn">HSN</label>
+        </div>
+      </div>
+  
+  
+  <div class="row">
+        <div class="input-field col s4">
+          <input  id="pamt" type="text" class="validate">
+          <label for="pamt">Particulars amount in ₹</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="net" type="text" class="validate">
+          <label for="net">Net Amount in ₹</label>
+        </div>
+      </div>
+      
+      
+  <div class="row">
+        <div class="input-field col s4">
+          <input  id="tax" type="text" class="validate">
+          <label for="tax">Tax in ₹</label>
+        </div>
+        <div class="input-field col s4">
+          <input id="tot" type="text" class="validate">
+          <label for="tot">Total Amount in ₹</label>
+        </div>
+      </div>
+      
+  <div class="row">
+        <div class="input-field col s4">
+          <input  id="pay" type="text" class="validate">
+          <label for="pay">Payee</label>
+        </div>
+       
+       
+        <div class="input-field col s4">
+          <input id="prefDate" type="text" class="datepicker">
+         
+        </div>
+       
+       
+       
+       
+       
+       
+    </div>
+        
+    <div class="row">
+       <button id="btn" class="waves-effect waves-light btn-small indigo darken-3"><i class="material-icons left">done</i>Submit</a>
+    </div>
+      
+</div>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            
+    <?!=include("page-js")  ?>
+   
+ 
+  
+    
+  </body>
+</html>
+
